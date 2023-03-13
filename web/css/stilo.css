@@ -18,7 +18,7 @@ body{
 	position: absolute;
 	height: 250px;
 	width: 100%;
-	background-image: url("img/fondo_index.png") center no-repeat;
+	background-image: url("img/fondo_index.png");
 }
 .logo{
 	text-align: left;
