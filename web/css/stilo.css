@@ -1,4 +1,5 @@
 *{
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
@@ -54,8 +55,7 @@ body{
     flex: 0 0 50%;
     max-width: 50%;
 	text-align: right;
-	margin-top: 5%;
-	margin-top: 8%;
+	margin-top: 60px;
 }
 h1{
 	text-align: center;
@@ -100,22 +100,58 @@ nav a{
 	margin-bottom: 20px;
 }
 footer{
-	display: flex;
+	display: inline-flex;
   	flex-wrap: nowrap;
 	width: 100%;
-	height: 200px;
 	background-color: black;
 	color:white;
+}
+footer h2{
+	font-size: 1em;
 }
 footer p{
 	text-emphasis: center;
 	padding: 50px;
 }
 footer div{
+	background-color: rgb(196, 69, 69);
 	width: 33%;
 	margin: 30px;
+	padding: 20px;
 }
-footer section{
+footer div ul{
+	list-style-type: none;
+}
+footer div ul li{
+	margin: 10px;
+}
+footer div input{
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 100%;
+}
+footer div button{
+	background-color:#ffe707;
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 104%;
+	border: none;
+}
+.color{
+	display: inline-flex;
 	clear: auto;
 	border-top: 1px solid #6C6464;
 }
+.derecha{
+	text-align: left;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.izquierda {
+	text-align: right;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
