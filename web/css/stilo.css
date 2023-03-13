@@ -14,6 +14,12 @@ body{
 	flex-wrap: wrap;
 	background-color: black;
 }
+.cabeceraindex{
+	position: absolute;
+	height: 250px;
+	width: 100%;
+	background-image: url("img/fondo_index.png") center no-repeat;
+}
 .logo{
 	text-align: left;
 	flex: 0 0 50%;
@@ -25,6 +31,7 @@ body{
 	height: 122px;
 	margin-top: 20px;
 	margin-left: 43px;
+	margin-bottom: 20px;
 }
 .menu{
     flex: 0 0 50%;
@@ -40,7 +47,7 @@ h1{
 }
 
 nav ul{
-	background-color: #757575;
+	*background-color: #757575;
 	width: 100%;
 	list-style-type: none;
 	text-align:center;
@@ -50,7 +57,7 @@ nav li{
 	display:inline-flex;
 }
 nav li:hover{
-	background-color: black;
+	*background-color: black;
 }
 nav a{
 	text-decoration:  none;
@@ -82,13 +89,16 @@ footer{
 	height: 200px;
 	background-color: black;
 	color:white;
-	margin-top: 40px;
 }
 footer p{
 	text-emphasis: center;
 	padding: 50px;
 }
 footer div{
-	width: 100px;
+	width: 33%;
 	margin: 30px;
+}
+footer section{
+	clear: auto;
+	border-top: 1px solid #6C6464;
 }
