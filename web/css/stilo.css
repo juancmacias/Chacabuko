@@ -15,10 +15,23 @@ body{
 	background-color: black;
 }
 .cabeceraindex{
-	position: absolute;
-	height: 250px;
+	height: 633px;
 	width: 100%;
-	background-image: url("img/fondo_index.png");
+	background: url("../img/fondo_index.png") center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.index{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+.index button{
+	padding: 5px;
+	border-radius: 5px;
+	height: 47px;
+	width: 157px;
 }
 .logo{
 	text-align: left;
