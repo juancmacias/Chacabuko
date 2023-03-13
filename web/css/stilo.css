@@ -21,6 +21,24 @@ body{
 	background-size: cover;
 	text-align: center;
 }
+.lnr {
+	font-family: 'Linearicons-Free';
+	*speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 30px;
+    font-weight: 500;
+    color: #f7631b;
+    margin-right: 30px;
+	padding-top: 10px;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 .index{
 	color: white;
 	font-size: 2em;
@@ -32,6 +50,9 @@ body{
 	border-radius: 5px;
 	height: 47px;
 	width: 157px;
+	border: none;
+	background-color: #ffffffa1 ;
+	font-size: 24px;
 }
 .logo{
 	text-align: left;
