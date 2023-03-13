@@ -1,4 +1,8 @@
+/*
+Hacemos que todo vaya hacia dentro y ponemos los margenes y pading a 0
+*/
 *{
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
@@ -8,10 +12,16 @@ body{
     margin: 0px auto;
     font-family: sans-serif;
     background-color: white;
+	/* evitar los desbordamiento lateral entre navegación y página cortas*/
+	overflow-y: scroll;
 }
+/*
+Aquí empieza las clases generales
+*/
 .cabecera{
 	display: flex;
-	flex-wrap: wrap;
+  	flex-wrap: wrap;
+	justify-content: space-between;
 	background-color: black;
 }
 .cabeceraindex{
@@ -37,12 +47,7 @@ body{
 	background-color: #ffffffa1 ;
 	font-size: 24px;
 }
-.logo{
-	text-align: left;
-	flex: 0 0 50%;
-    max-width: 50%;
 
-}
 .logo img{
 	width: 305px;
 	height: 122px;
@@ -51,11 +56,7 @@ body{
 	margin-bottom: 20px;
 }
 .menu{
-    flex: 0 0 50%;
-    max-width: 50%;
-	text-align: right;
-	margin-top: 5%;
-	margin-top: 8%;
+	margin-top: 60px;
 }
 h1{
 	text-align: center;
@@ -83,7 +84,9 @@ nav a{
 	padding: 10px;
 	width: 150px;
 }
+/* fin cabecera */
 
+/* para el cuerpo de la página */
 .secciones{
 	display:flex;
 	align-items: center;
@@ -99,23 +102,57 @@ nav a{
 	text-align: center;
 	margin-bottom: 20px;
 }
+/* fin cuerpo de la pagina */
+/* para el pie de página  */
 footer{
-	display: flex;
+	display: inline-flex;
   	flex-wrap: nowrap;
 	width: 100%;
-	height: 200px;
 	background-color: black;
 	color:white;
+}
+footer h2{
+	font-size: 1em;
 }
 footer p{
 	text-emphasis: center;
 	padding: 50px;
 }
 footer div{
+	*background-color: rgb(196, 69, 69);
 	width: 33%;
 	margin: 30px;
+	padding: 20px;
 }
-footer section{
-	clear: auto;
+footer div ul{
+	list-style-type: none;
+}
+footer div ul li{
+	margin: 10px;
+}
+footer div input{
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+}
+footer div button{
+	background-color:#ffe707;
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+	border: none;
+}
+.last{
+	text-align: center;
+}
+.color{
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-between;
 	border-top: 1px solid #6C6464;
 }
+/* fin del pie de página*/
+
