@@ -87,11 +87,7 @@ nav a{
 /* fin cabecera */
 
 /* para el cuerpo de la página */
-.secciones{
-	display:flex;
-	align-items: center;
-	padding:40px;
-}
+
 .menu-secundario{
 	width:20% ;
 	margin-top: 60px;
@@ -103,6 +99,38 @@ nav a{
 	margin-bottom: 20px;
 }
 /* fin cuerpo de la pagina */
+/* MAIN */
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: right;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.bares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+}
+.imagen {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+
+
 /* para el pie de página  */
 footer{
 	display: inline-flex;
