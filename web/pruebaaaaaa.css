@@ -1,0 +1,67 @@
+
+.contenido {
+    margin: 0 139px;
+    background-color: aqua;
+} 
+.carta{ 
+    width: 800px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+.tn2 {
+    /* cartaDePostres */
+position: absolute;
+width: 301px;
+height: 218px;
+left: 343px;
+top: 532px;
+flex-direction: column; 
+align-items: center;
+}
+.tn3 {
+    /* cartaDeVInos */
+position: absolute;
+width: 301px;
+height: 219px;
+left: 343px;
+top: 789px;
+flex-direction: column;
+align-items: center; 
+} 
+.tn4 {
+    /* cartaSinGluten */
+position: absolute;
+width: 301px;
+height: 219px;
+left: 343px;
+top: 1043px;
+flex-direction: column; 
+align-items: center;
+}
+.tn5 {
+    /* menuDelDia */
+position: absolute;
+width: 298px;
+height: 220px;
+left: 342px;
+top: 1301px;
+flex-direction: column; 
+align-items: center;
+}
+.tn6 {
+    /* cartaDeDesayunos */
+position: absolute;
+width: 298px;
+height: 222px;
+left: 342px;
+top: 1555px;
+flex-direction: column; 
+align-items: center;
+}
