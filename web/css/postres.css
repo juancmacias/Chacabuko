@@ -24,29 +24,6 @@ Aquí empieza las clases generales
 	justify-content: space-between;
 	background-color: black;
 }
-.cabeceraindex{
-	height: 633px;
-	width: 100%;
-	background: url("../img/fondo_index.png") center no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-
-.index{
-	color: white;
-	font-size: 2em;
-	text-align: center;
-	width: 100%;
-}
-.index button{
-	padding: 5px;
-	border-radius: 5px;
-	height: 47px;
-	width: 157px;
-	border: none;
-	background-color: #ffffffa1 ;
-	font-size: 24px;
-}
 
 .logo img{
 	width: 305px;
@@ -58,6 +35,7 @@ Aquí empieza las clases generales
 .menu{
 	margin-top: 60px;
 }
+
 h1{
 	text-align: center;
 	background-color: black;
@@ -87,11 +65,36 @@ nav a{
 /* fin cabecera */
 
 /* para el cuerpo de la página */
+
+.contenido{
+    margin: 0 49px;
+    margin: top 20px;
+}
+
 .secciones{
-	display:flex;
 	align-items: center;
 	padding:40px;
 }
+
+.secciones h2{
+    color: #ffe707;
+    font-weight: 780;
+    text-align: center;
+}
+
+.descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.descripcion p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 0.8em;
+}
+
 .menu-secundario{
 	width:20% ;
 	margin-top: 60px;
@@ -113,6 +116,7 @@ footer{
 }
 footer h2{
 	font-size: 1em;
+    text-align: center;
 }
 footer p{
 	text-emphasis: center;
@@ -122,13 +126,14 @@ footer div{
 	*background-color: rgb(196, 69, 69);
 	width: 33%;
 	margin: 30px;
-	padding: 20px;
+	padding: 10px;
 }
 footer div ul{
 	list-style-type: none;
 }
 footer div ul li{
-	margin: 10px;
+	margin: 15px;
+    text-align: center;
 }
 footer div input{
 	padding: 2px;
@@ -149,11 +154,16 @@ footer div button{
 	text-align: center;
 }
 
+.last form{
+	margin-top: 20px;
+}
+
 .color{
 	display: flex;
   	flex-wrap: wrap;
 	justify-content: space-between;
 	border-top: 1px solid #6C6464;
+    font-size: small;
 }
 /* fin del pie de página*/
 
