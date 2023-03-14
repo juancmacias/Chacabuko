@@ -74,10 +74,12 @@ nav a{
 .secciones{
 	align-items: center;
 	padding:40px;
+    padding-bottom: 10px;
 }
 
 .secciones h2{
     color: #ffe707;
+    font-size: 180%;
     font-weight: bold;
     text-align: center;
 }
@@ -109,8 +111,9 @@ nav a{
 /* Creación de botones*/
 .botones {
     display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .botones button{
@@ -121,6 +124,7 @@ nav a{
     border: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: medium;
 }
 /* fin cuerpo de la pagina */
 
@@ -185,6 +189,7 @@ footer div button{
 }
 /* ajustes de la zona de copyright y grupo de creación por SANTI */
 .color div{
+    color: #6C6464;
     text-align: justify;
     margin: 10px;
     margin-left: 10%;
