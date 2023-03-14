@@ -78,7 +78,7 @@ nav a{
 
 .secciones h2{
     color: #ffe707;
-    font-weight: 780;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -105,7 +105,25 @@ nav a{
 	text-align: center;
 	margin-bottom: 20px;
 }
+
+/* Creación de botones*/
+.botones {
+    display: flex;
+	justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.botones button{
+    border-radius: 100px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 150px;
+    height: 33px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 /* fin cuerpo de la pagina */
+
 /* para el pie de página  */
 footer{
 	display: inline-flex;
@@ -163,7 +181,13 @@ footer div button{
   	flex-wrap: wrap;
 	justify-content: space-between;
 	border-top: 1px solid #6C6464;
-    font-size: small;
+    font-size: x-small;
+}
+/* ajustes de la zona de copyright y grupo de creación por SANTI */
+.color div{
+    text-align: justify;
+    margin: 10px;
+    margin-left: 10%;
 }
 /* fin del pie de página*/
 
