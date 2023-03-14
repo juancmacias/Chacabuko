@@ -88,7 +88,7 @@ nav a{
 
 /* para el cuerpo de la página */
 .secciones{
-	display:flex;
+	*display:flex;
 	align-items: center;
 	padding:40px;
 }
@@ -154,5 +154,3 @@ footer div button{
 	justify-content: space-between;
 	border-top: 1px solid #6C6464;
 }
-/* fin del pie de página*/
-

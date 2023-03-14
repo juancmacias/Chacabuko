@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--
+FACTORIA F5, tutora: Ana
+Fecha inicio: 10-03-2023 / Fecha fin: 22-03-2023
+Desarrolladoras:
+    Eva
+    Liliana
+    Mariama
+    Santiago
+    JC
+DESCRIPCIÓN:
+    Crear una página web en base a un prototipado  que nos han facilitado a traves de FIGMA, debe ser responsive entre otros
+-->
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurante Chacabuko</title>
+	<link rel="stylesheet" href="css/stilo.css">
+    <!-- iconos -->
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <!-- 
+        Esta en la parte donde inicia la cabecera
+        La class cabeceraindex >> solo se utiliza para la página principal
+    -->
+    <header class="cabecera">
+        <div class="logo">
+            <a href="index.html" title="Restaurante Chacabuko">
+                <img src="img/logtipo.png">
+            </a>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="">Restaurante</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <!-- Aquí acaba la cabeceras -->
+    <!-- 
+        Aquí comienza el cuerpo de la página, es la que se modifica
+    -->
+    <style>
+        main{
+            margin: 0 139px;
+
+            background-color: aqua;
+        }
+        .secciones h2, .secciones h3{
+            text-align: center;
+            color: rgba(239, 181, 1, 1);
+        }
+        .descripcion{
+            display: flex;
+  	        flex-wrap: wrap;
+	        justify-content: space-between;
+            padding: 10px;
+        }
+        .descripcion p{
+            margin-top: 10px;
+            text-align: left;
+            font-size: 0.8em;
+        }
+        .descripcion_uno{
+            font-weight: bold;
+            font-size: 1em;
+            padding: 20px;
+        }
+    </style>
+    <main>
+        <div class="contenido">
+
+            <div class="articulos">
+
+                    <!-- para los vinos espumosos blancos -->
+                    <div class="secciones">
+                        <h2>Espumosos blancos</h2>
+                        <h3>D.O.Cava</h3>
+                        <div class="descripcion">
+                            <div>
+                                <h4>Codorníu Clásico Semiseco</h4>
+                                <p>Macabeo, Xarel.lo y Parellada</p>
+                            </div>
+                            <div>17,25 &euro;</div>
+                        </div>
+                        <div class="descripcion">
+                            <div>
+                                <h4>Juve & Camps Gran reserva de la Familia Brut Nature</h4>
+                                <p>Xarel.lo, Macabeo y Parellada</p>
+                            </div>
+                            <div>23.70 &euro;</div>
+                        </div>
+                    </div>
+                    <!-- para el champaña -->
+                    <div class="secciones">
+                        <h2>A.O.C. Champagne</h2>
+                        <div class="descripcion">
+                            <div>
+                                <h4>Möet & Chandon Impérial Brut</h4>
+                                <p>Jamón, Queso, Bacon, Chorizo y Salami.</p>
+                            </div>
+                            <div>52,00 &euro;</div>
+                        </div>
+                    </div>
+                    <!-- para los vinos espumosos italianos -->
+                    <div class="secciones">
+                        <h2>Espumosos italianos</h2>
+                        <div class="descripcion">
+                            <div>
+                                <h4>LAMBRUSCO</h4>
+                            </div>
+                            <div>14,50 &euro;</div>
+                        </div>
+                        <div class="descripcion">
+                            <div>
+                                <h4>FRAGOLINO</h4>
+                            </div>
+                            <div>15,50 &euro;</div>
+                        </div>
+                        <div class="descripcion">
+                            <div>
+                                <h4>MOSCATO D´ASTI</h4>
+                            </div>
+                            <div>15,75 &euro;</div>
+                        </div>
+                        <div class="descripcion">
+                            <div>
+                                <h4>SANGUE DÍ GÍUDA</h4>
+                            </div>
+                            <div>16,00 &euro;</div>
+                        </div>
+                    </div>
+                    <!-- para elvinos blancos -->
+                    <div class="secciones">
+                        <h2>Blancos</h2>
+                        <h3>D.O. Rías Baixas</h3>
+                        <div class="descripcion">
+                            <div>
+                                <h4>Genio y Figura</h4>
+                                <p>Albariño <br>
+                                    Crianza de 4 meses en depósito sobres sus lías finas con batonnage. <br>
+                                    Amarillo Brillante - fruta madura, flores marchitas, toques de lías finas. Potente y equilibrado.</p>
+                            </div>
+                            <div>18,50 &euro;</div>
+                        </div>                   
+                    </div>
+                    <!-- para vinos de rueda-->
+                    <div class="secciones">
+                        <h3>D.O. Rueda</h3>
+                        <div class="descripcion">
+                            <div>
+                                <h4>CERROSOL</h4>
+                                <p>Verdejo y Viura<br>
+                                    Maceracion lenta de de las uvas en frio<br>
+                                    Amarillo Verdoso- Fruta fresca, fondo mineral y equilibrado</p>
+                            </div>
+                            <div>8,50 &euro;</div>
+                        </div>
+                        <div class="descripcion">
+                            <div>
+                                <h4>PALACIO DE BORNOS - Verdejo Frizzante</h4>
+                                <p>Vino Espumoso (Valladolid)<br>
+                                    Amarillo Pajizo, reflejos verdosos - notas cítricas y tropicales. Fresco y goloso.</p>
+                            </div>
+                            <div>16,00 &euro;</div>
+                        </div>
+                        <div class="descripcion">
+                            <div>
+                                <h4>Protos</h4>
+                                <p>Relleno de Mozarella y gratinado al horno</p>
+                            </div>
+                            <div>19,00 &euro;</div>
+                        </div>
+                    </div>
+                    <div class="descripcion_uno">
+                        <p>
+                            ESTABLECIMIENTO CON INFORMACIÓN DISPONIBLE EN MATERIA DE ALERGIAS E INTOLERANCIAS ALIMENTARIAS
+                            SOLICITEN INFORMACIÓN A NUESTRO PERSONAL
+                            MUCHAS GRACIAS<br>
+                                                                                                           REGLAMENTO (EU) 1162/ 2011
+                        </p>
+                    </div>
+            </div>
+            <style>
+                .submenu{
+                    display: flex;
+  	                flex-wrap: wrap;
+	                justify-content: space-between;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+
+                }
+                .submenu button{
+                    padding: 5px;
+                    border-radius: 100px;
+                    background-color: rgba(217, 217, 217, 1);
+                    width: 150px;
+                    height: 33px;
+                    border: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+            </style>
+            <div class="submenu">
+                <button>Principal</button>
+                <button>Postres</button>
+            </div>
+        </div>
+    </main>
+    <!-- aquí acaba el cuerpo de la pagina-->
+    <!-- Inica el pie de página-->
+	<footer>
+		<div>
+            <h2>Sobre Nosotros</h2>
+            <ul>
+                <li>Nuestra historio</li>
+                <li>Dónde estramos</li>
+                <li>Protección de datos</li>
+                <li>Uso de Cookies</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Únete al equipo</h2>
+            <ul>
+                <li>Trabaja con nosotros</li>
+            </ul>
+        </div>
+        <div>
+            <h2>!Siguenos! :)</h2>
+            <ul>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+            </ul>
+            
+            
+            
+        </div>
+        <div class="last">
+            <h2>¿Quieres participar en sorteos y promociones?<br> ¡Déjanos tu correo!</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+
+        </div>
+	</footer>
+    <footer class="color">
+        <div>Desarrollado por Equipo 3 F5</div>
+        <div>Copyright 2023 © Todos los derechos reservados.</div>
+    </footer>
+    <!-- Finaliza el pie de pagina -->
+</body>
+</html>
