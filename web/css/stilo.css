@@ -14,6 +14,7 @@ body{
     background-color: white;
 	/* evitar los desbordamiento lateral entre navegación y página cortas*/
 	overflow-y: scroll;
+	background-color: rgba(198, 194, 194, 1);
 }
 /*
 Aquí empieza las clases generales
