@@ -101,32 +101,34 @@ nav a{
 /* fin cuerpo de la pagina */
 /* MAIN */
 .secciones {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-	align-items: right;
-    height: 600px;
-    margin-left: 50px;
+   display: flex;
+   float: right;
+   flex-direction: column;
+   justify-content: space-between;
 }
-
-.bares {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 h2 {
-    margin-bottom: 10px;
+    margin-top: 20%;
 }
+.bar {
+	display: flex;
+	justify-content: space-between;
 
+}
 button {
-    margin: 5px;
+	box-sizing: border-box;
+    background: rgba(228, 219, 219, 0.11);
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+.container {
+   display: flex;
+   float: left;
+   flex-direction: column;
+   justify-content: space-between;
 }
 .imagen {
-	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 600px;
+	margin-left: 90%;
+
 }
 
 
