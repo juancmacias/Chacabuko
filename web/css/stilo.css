@@ -22,7 +22,7 @@ Aquí empieza las clases generales
 	display: flex;
   	flex-wrap: wrap;
 	justify-content: space-between;
-	background-color: black;
+	background-color: rgba(15, 14, 14, 1);
 }
 .cabeceraindex{
 	height: 633px;
@@ -108,7 +108,7 @@ footer{
 	display: inline-flex;
   	flex-wrap: nowrap;
 	width: 100%;
-	background-color: black;
+	background-color: rgba(15, 14, 14, 1);
 	color:white;
 }
 footer h2{
@@ -149,6 +149,7 @@ footer div button{
 	text-align: center;
 }
 .color{
+	color: rgba(108, 100, 100, 1);
 	display: flex;
   	flex-wrap: wrap;
 	justify-content: space-between;
