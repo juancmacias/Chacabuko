@@ -97,17 +97,6 @@ nav a{
     font-size: 0.8em;
 }
 
-.menu-secundario{
-	width:20% ;
-	margin-top: 60px;
-}
-.menu-secundario a{
-	display: block;
-	color: black;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
 /* Creación de botones*/
 .botones {
     display: flex;
