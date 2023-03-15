@@ -103,6 +103,53 @@ nav a{
 	text-align: center;
 	margin-bottom: 20px;
 }
+
+.contenido{
+    margin: 0 49px;
+    margin: top 20px;
+}
+
+
+
+.secciones h2{
+    color: #ffe707;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.descripcion p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+
+/* Creación de botones*/
+.botones {
+    display: flex;
+	justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.botones button{
+    border-radius: 100px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 150px;
+    height: 33px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+}
 /* fin cuerpo de la pagina */
 /* para el pie de página  */
 footer{
