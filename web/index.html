@@ -65,24 +65,67 @@ DESCRIPCIÓN:
 
             .contenido {
                 display: flex;
-                align-items: center;
                 flex-direction: column;
+                align-items: center;
                 background-color: aqua;
-                margin: 0 100px;
+                margin: 0 200px;
+            }
+            .secciones {
+                display: flex; /* Utiliza el modelo de caja flexible */
+                flex-wrap: wrap; /* Permite que los elementos se envuelvan en la siguiente línea */
+                justify-content: center; /* Centra los elementos horizontalmente */
+                align-items: center; /* Centra los elementos verticalmente */
+            }
+            .rectangulo {
+                width: 614px;
+                height: 123px;
+                background-color: #A49B9B;
+            }
+            .secciones h2 {
+                align-items: center;
+                margin: 20px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                color: rgba(0, 0, 0, 0.64);
+            }
+            .rectangulo button {
+                width: 156.25px;
+                height: 44.64px;
+                left: 574px;
+                top: 754px;
+                background: rgba(185, 200, 222, 0.73);
+                border: 1px solid #3b3939;
+                border-radius: 15px;
+            }
+            .secciones button {
+                width: 156px;
+                height: 40px;
+                left: 567px;
+                top: 1427px;
+                border-radius: 5px;
+            }
+            .secciones img {
+                width: 788px;
+                height: 458px;
+                margin: 30px;
+                align-items: center;
             }
 
             .contenido2 {
                 display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
                 background-color: #6C6464;
             }
-
-            *.secciones img {
-                align-items: center;
-            }
+            
         </style>
         <div class="contenido">
             <div class="secciones">
-                <div>
+                <div class="rectangulo">
                     <h2>¡No te resistas ven a vernos!</h2>
                     <button>Reservar</button> 
                 </div>
@@ -96,7 +139,7 @@ DESCRIPCIÓN:
             </div>
         </div>
         <div class="contenido2">
-            <div class="secciones">
+            <div class="secciones2">
                 <div>
                     <h2>Nuestra seccion dulce</h2>
                     <p>Es la mejor forma de terminar una experiencia en nuestros restaurantes. Aromas y sabores de toda
