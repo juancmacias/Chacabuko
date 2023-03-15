@@ -35,7 +35,7 @@ DESCRIPCIÓN:
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="">Restaurante</a></li>
+                    <li><a href="Restaurante-Eva.html">Restaurante</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,33 +44,7 @@ DESCRIPCIÓN:
     <!-- 
         Aquí comienza el cuerpo de la página, es la que se modifica
     -->
-    <style>
-        main{
-            margin: 0 139px;
 
-            background-color: aqua;
-        }
-        .secciones h2, .secciones h3{
-            text-align: center;
-            color: rgba(239, 181, 1, 1);
-        }
-        .descripcion{
-            display: flex;
-  	        flex-wrap: wrap;
-	        justify-content: space-between;
-            padding: 10px;
-        }
-        .descripcion p{
-            margin-top: 10px;
-            text-align: left;
-            font-size: 0.8em;
-        }
-        .descripcion_uno{
-            font-weight: bold;
-            font-size: 1em;
-            padding: 20px;
-        }
-    </style>
     <main>
         <div class="contenido">
             <div class="articulos">
@@ -183,29 +157,10 @@ DESCRIPCIÓN:
                         </p>
                     </div>
             </div>
-            <style>
-                .submenu{
-                    display: flex;
-  	                flex-wrap: wrap;
-	                justify-content: space-between;
-                    margin-bottom: 10px;
-                    margin-top: 10px;
 
-                }
-                .submenu button{
-                    padding: 5px;
-                    border-radius: 100px;
-                    background-color: rgba(217, 217, 217, 1);
-                    width: 150px;
-                    height: 33px;
-                    border: none;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                }
-            </style>
-            <div class="submenu">
+            <div class="botones">
                 <button>Principal</button>
-                <button>Postres</button>
+                <button><a href="postres.html">Postres</a></button>
             </div>
         </div>
     </main>
@@ -215,10 +170,10 @@ DESCRIPCIÓN:
 		<div>
             <h2>Sobre Nosotros</h2>
             <ul>
-                <li>Nuestra historio</li>
-                <li>Dónde estramos</li>
-                <li>Protección de datos</li>
-                <li>Uso de Cookies</li>
+                <li>Nuestra historia</li>
+                <li><a href="Restaurante-Eva.html">Dónde estramos</a></li>
+                <li><a href="protecciondatos.html">Protección de datos</a></li>
+                <li><a href="usocookies.html">Uso de Cookies</a></li>
             </ul>
         </div>
         <div>
@@ -230,16 +185,20 @@ DESCRIPCIÓN:
         <div>
             <h2>!Siguenos! :)</h2>
             <ul>
-                <li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li>
-                <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+                <li><a href="https://www.facebook.com/rtechacabuco/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/restaurantechacabuco/" target="_blank"></a><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
             </ul>
+            
+            
+            
         </div>
         <div class="last">
             <h2>¿Quieres participar en sorteos y promociones?<br> ¡Déjanos tu correo!</h2>
-            <form>
+            <form action="sorteo.html" method="get">
                 <input type="email" placeholder="Email" required>
                 <button type="submit">Suscribirse</button>
             </form>
+
         </div>
 	</footer>
     <footer class="color">
