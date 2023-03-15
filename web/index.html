@@ -12,15 +12,17 @@ DESCRIPCIÓN:
     Crear una página web en base a un prototipado  que nos han facilitado a traves de FIGMA, debe ser responsive entre otros
 -->
 <html lang="es">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Restaurante Chacabuko</title>
-	<link rel="stylesheet" href="css/stilo.css">
+    <title>Restaurante Chacabuko</title>
+    <link rel="stylesheet" href="css/stilo.css">
     <!-- iconos -->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+
 <body>
     <!-- 
         Esta en la parte donde inicia la cabecera
@@ -55,23 +57,59 @@ DESCRIPCIÓN:
         Aquí comienza el cuerpo de la página, es la que se modifica
     -->
     <main>
+        <style>
+            .main {
+                margin: 0 139px;
+                background-color: blueviolet;
+            }
+
+            .contenido {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background-color: aqua;
+                margin: 0 100px;
+            }
+
+            .contenido2 {
+                display: flex;
+                background-color: #6C6464;
+            }
+
+            *.secciones img {
+                align-items: center;
+            }
+        </style>
         <div class="contenido">
-            <div class="articulos">
-                <div class="secciones">
-                    <div>
-                        <h2>Subtitulo</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolor odio perspiciatis laborum repudiandae omnis reprehenderit consectetur quod iste aliquid quaerat dolorum tempore atque quo et similique voluptate neque nulla architecto temporibus, vitae doloremque, aut illo. Odio dolor fugit itaque quo accusamus officiis quis mollitia, asperiores natus voluptate, iure laboriosam quia obcaecati quisquam tempora ipsum voluptatem optio, tenetur corrupti deleniti unde. In, placeat reiciendis, magnam perferendis voluptates eius dolorem. Explicabo vero voluptatibus quisquam praesentium eum voluptate, ad pariatur asperiores rem quos totam fuga beatae cumque deserunt perspiciatis, id necessitatibus odit earum minus, est tenetur! Ratione at dignissimos iure possimus magni quisquam soluta, dicta. Ab ex, quos consequuntur ut adipisci officiis, perferendis reiciendis, sint explicabo beatae, nesciunt amet aperiam iusto facilis fugit architecto? Sed est alias doloribus sint illo asperiores, eligendi facere unde eius. Inventore quis nisi cum, numquam cupiditate blanditiis ullam. Consectetur repudiandae aliquid provident corporis laboriosam eos autem rem?</p>
-                    </div>
-                    <div><img src="imagen.jpg"></div>
+            <div class="secciones">
+                <div>
+                    <h2>¡No te resistas ven a vernos!</h2>
+                    <button>Reservar</button> 
+                </div>
+                <div><img src="img/index1.png"></div>
+                <div>
+                    <h2>¡Prueba nuestra especialidad!</h2>
+                    <p>Una deliciosa masa fina y crujiente rellena de queso y lo que te de la gana. Asi definimos nuestra
+                        arrollada, uno de los best sellers desde hace 33 años.</p>
+                    <button>Quiero probarla</button>    
                 </div>
             </div>
-
+        </div>
+        <div class="contenido2">
+            <div class="secciones">
+                <div>
+                    <h2>Nuestra seccion dulce</h2>
+                    <p>Es la mejor forma de terminar una experiencia en nuestros restaurantes. Aromas y sabores de toda
+                        la vida. Nuestras recetas siguen manteniéndose fieles a como eran hace 3 décadas.</p>
+                </div>
+                <div><img src="img/index2.png"></div>
+            </div>
         </div>
     </main>
     <!-- aquí acaba el cuerpo de la pagina-->
     <!-- Inica el pie de página-->
-	<footer>
-		<div>
+    <footer>
+        <div>
             <h2>Sobre Nosotros</h2>
             <ul>
                 <li>Nuestra historio</li>
@@ -92,9 +130,9 @@ DESCRIPCIÓN:
                 <li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li>
                 <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
             </ul>
-            
-            
-            
+
+
+
         </div>
         <div class="last">
             <h2>¿Quieres participar en sorteos y promociones?<br> ¡Déjanos tu correo!</h2>
@@ -104,11 +142,12 @@ DESCRIPCIÓN:
             </form>
 
         </div>
-	</footer>
+    </footer>
     <footer class="color">
         <div>Desarrollado por Equipo 3 F5</div>
         <div>Copyright 2023 © Todos los derechos reservados.</div>
     </footer>
     <!-- Finaliza el pie de pagina -->
 </body>
+
 </html>
