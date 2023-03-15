@@ -100,25 +100,39 @@ nav a{
 }
 /* fin cuerpo de la pagina */
 /* MAIN */
+main {
+	margin: 0 139px;
+	background-color: #ffe707;
+}
 .secciones {
-   display: flex;
-   flex-direction: column;
-   float: right;
-   justify-content: space-between;
+	align-items: center;
+   *background-color: #ffe707;
+   *display: flex;
+   *flex-direction: column;
+   *float: right;
+   *justify-content: space-between;
 }
 .secciones > * {
-	margin-right: 220px; /* o cualquier valor que desees */
+	*margin-right: 220px; /* o cualquier valor que desees */
+  }
+.bar {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	*background-color: green;
   }
 h2 {
-	margin-top: 8%;
-	margin-bottom: 8%;
+	*margin-top: 8%;
+	*margin-bottom: 8%;
 }
 
 .button-container {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 30px;
-	
+	margin: 30px;
+	width: 300px;
+	background-color: red;
+	*vertical-align: middle; 
 }
 button {
 	width: 100px;
@@ -129,18 +143,16 @@ button {
     border: 1px solid #000000;
     border-radius: 15px;
 }
-.container {
-   display: flex;
-   float:left;
-   flex-direction: column;
-   justify-content: space-between;
+.segundocontenedor {
+	width: 60%;
+	margin-top: 20px;
+	background-color: rgb(29, 95, 152);
 }
-
-.imagen {
-	margin-top: 5px;
-	margin-left: 90%; 
+.segundocontenedor img, .segundocontenedor h2 {
+	display: inline;
+	background-color: #6C6464;
+	vertical-align: middle; 
 }
-
 
 
 /* para el pie de página  */
