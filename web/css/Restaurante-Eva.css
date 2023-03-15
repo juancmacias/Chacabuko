@@ -102,7 +102,6 @@ nav a{
 /* MAIN */
 main {
 	margin: 0 139px;
-	background-color: #ffe707;
 }
 .secciones {
 	align-items: center;
@@ -119,7 +118,6 @@ main {
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	*background-color: green;
   }
 h2 {
 	*margin-top: 8%;
@@ -131,7 +129,6 @@ h2 {
 	justify-content: space-around;
 	margin: 30px;
 	width: 300px;
-	background-color: red;
 	*vertical-align: middle; 
 }
 button {
@@ -146,11 +143,9 @@ button {
 .segundocontenedor {
 	width: 60%;
 	margin-top: 20px;
-	background-color: rgb(29, 95, 152);
 }
 .segundocontenedor img, .segundocontenedor h2 {
 	display: inline;
-	background-color: #6C6464;
 	vertical-align: middle; 
 }
 
