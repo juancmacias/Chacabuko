@@ -1,0 +1,113 @@
+.contenido {
+position: absolute;
+width: 301px;
+height: 300px;
+left: 370px;
+top: 600px;
+}
+.button-container {
+position: absolute;
+width: 200px;
+height: 45px;
+left: 500px;
+top: 130px;
+}
+
+.cartasprincipales {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 430px;
+    top: 50px;
+
+}
+.button-postre {
+position: absolute;
+width: 200px;
+height: 45px;
+left: 500px;
+top: 350px;
+
+}
+.cartaspostre {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 430px;
+    top: 270px;
+}
+.cartasvinos {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 430px;
+    top: 500px;
+}
+
+.button-vinos {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 500px;
+    top: 570px;
+    
+    }
+    .cartasingluten {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 430px;
+        top: 710px;
+    }
+    
+    .button-singluten {
+        position: absolute;
+        width: 200px;
+        height: 45px;
+        left: 500px;
+        top: 780px;
+        
+        }
+        .carta-menu-del-dia {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            left: 430px;
+            top: 920px;
+        }
+        
+        .button-menu-del-dia {
+            position: absolute;
+            width: 200px;
+            height: 45px;
+            left: 500px;
+            top: 1000px;
+            
+            }
+
+            .carta-de-desayunos {
+                position: absolute;
+                width: 300px;
+                height: 200px;
+                left: 430px;
+                top: 1150px;
+            }
+            
+            .button-de-desayuno {
+                position: absolute;
+                width: 200px;
+                height: 45px;
+                left: 500px;
+                top: 1225px;
+                
+                }
+    .final {
+
+
+    }
+
+
+
+    
+    
+
