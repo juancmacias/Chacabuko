@@ -16,6 +16,10 @@ body{
 	overflow-y: scroll;
 	background-color: rgba(198, 194, 194, 1);
 }
+a{
+	color: white;
+	text-decoration: none;
+}
 /*
 Aquí empieza las clases generales
 */
