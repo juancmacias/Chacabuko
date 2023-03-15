@@ -206,6 +206,45 @@ main{
 	background-color: rgba(239, 181, 1, 1);
 	cursor: pointer;
 }
+/* restaurantes */
+.bar {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+
+
+.button-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+	width: 300px;
+	*vertical-align: middle; 
+}
+.button-container button a{
+	color: #000000;
+}
+button {
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+    background: rgba(228, 219, 219, 0.11);
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+.segundocontenedor {
+	width: 60%;
+	margin-top: 20px;
+}
+.segundocontenedor img, .segundocontenedor h2 {
+	display: inline;
+	vertical-align: middle; 
+}
+.segundocontenedor h2 a{
+	color: #000000;
+	font-size: 0.4em;
+}
 /* fin cuerpo de la pagina */
 /* para el pie de página  */
 footer{
