@@ -37,8 +37,8 @@ DESCRIPCIÓN:
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="">Reserva</a></li>
-                    <li><a href="">Restaurante</a></li>
+                    <li><a href="reservar_cita.html">Reserva</a></li>
+                    <li><a href="Restaurante-Eva.html">Restaurante</a></li>
                 </ul>
             </nav>
 
@@ -49,7 +49,7 @@ DESCRIPCIÓN:
         -->
         <div class="index">
             <p>¡Prueba nuestra deliciosa masa!</p>
-            <button>Cartas</button>
+            <button><a href="version-cartas.html">Cartas</a></button>
         </div>
     </header>
     <!-- Aquí acaba la cabeceras -->
@@ -58,9 +58,7 @@ DESCRIPCIÓN:
     -->
     <main>
         <style>
-            .main {
-                margin: 0 139px;
-            }
+
 
             .contenido {
                 display: flex;
@@ -76,103 +74,21 @@ DESCRIPCIÓN:
                 *align-items: center; /* Centra los elementos verticalmente */
                 text-align: center;
             }
-            .rectangulo {
-                width: 614px;
-                height: 123px;
-                background-color: #A49B9B;
-                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.30));
-            }
-            .secciones h2 {
-                margin: 20px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 24px;
-                color: rgba(0, 0, 0, 0.64);
-            }
-            .secciones p {
-                margin-bottom: 10px;
-                width: 684px;
-                height: 36px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 15px;
-                line-height: 18px;
-                color: rgba(0, 0, 0, 0.64);
-            }
-            .rectangulo button {
-                width: 156.25px;
-                height: 44.64px;
-                background: rgba(185, 200, 222, 0.73);
-                border: 1px solid #3b3939;
-                border-radius: 15px;
-            }
-            .secciones button {
-                width: 156px;
-                height: 40px;
-                border-radius: 5px;
-            }
-            .secciones img {
-                width: 788px;
-                height: 458px;
-                margin: 30px;
-                align-items: center;
-            }
-
-            .secciones2 {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                background-color: #6C6464;
-            } 
-            @font-face {
-                    font-family: 'Ephesis';
-                    src: url('fonts/Ephesis.ttf') format('truetype');
-                }
-            .secciones2 h2 {
-                margin-top: 50px;
-                margin-left: 240px;
-                font-family: 'Ephesis';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 50px;
-                line-height: 65px;
-                color: #FBA744;
-               
-            }.secciones2 p {
-                margin-top: 10px;
-                margin-left: 200px;
-                text-align: center;
-                width: 412px;
-                height: 72px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 18px;
-                color: #B6B0B0;
-            }
-            .secciones2 img {
-                width:500px;
-                height: 300px;
-                margin: 20px 100px;
-            }
+            
             
         </style>
         <div class="contenido">
             <div class="secciones">
                 <div class="rectangulo">
                     <h2>¡No te resistas ven a vernos!</h2>
-                    <button>Reservar</button> 
+                    <button><a href="reservar_cita.html">Reservar</a></button> 
                 </div>
                 <div><img src="img/index1.png"></div>
                 <div>
                     <h2>¡Prueba nuestra especialidad!</h2>
                     <p>Una deliciosa masa fina y crujiente rellena de queso y lo que te de la gana. Asi definimos nuestra
                         arrollada, uno de los best sellers desde hace 33 años.</p>
-                    <button>Quiero probarla</button>    
+                    <button><a href="version-cartas.html">Quiero probarla</a></button>    
                 </div>
             </div>
         </div>
@@ -183,20 +99,22 @@ DESCRIPCIÓN:
                     <p>Es la mejor forma de terminar una experiencia en nuestros restaurantes. Aromas y sabores de toda
                         la vida. Nuestras recetas siguen manteniéndose fieles a como eran hace 3 décadas.</p>
                 </div>
-                <div><img src="img/index2.png"></div>
+                <div>
+                    <img src="img/index2.png">
+                </div>
             </div>
         </div>
     </main>
     <!-- aquí acaba el cuerpo de la pagina-->
     <!-- Inica el pie de página-->
-    <footer>
-        <div>
+	<footer>
+		<div>
             <h2>Sobre Nosotros</h2>
             <ul>
-                <li>Nuestra historio</li>
-                <li>Dónde estramos</li>
-                <li>Protección de datos</li>
-                <li>Uso de Cookies</li>
+                <li>Nuestra historia</li>
+                <li><a href="Restaurante-Eva.html">Dónde estramos</a></li>
+                <li><a href="protecciondatos.html">Protección de datos</a></li>
+                <li><a href="usocookies.html">Uso de Cookies</a></li>
             </ul>
         </div>
         <div>
@@ -208,22 +126,22 @@ DESCRIPCIÓN:
         <div>
             <h2>!Siguenos! :)</h2>
             <ul>
-                <li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li>
-                <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+                <li><a href="https://www.facebook.com/rtechacabuco/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/restaurantechacabuco/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
             </ul>
-
-
-
+            
+            
+            
         </div>
         <div class="last">
             <h2>¿Quieres participar en sorteos y promociones?<br> ¡Déjanos tu correo!</h2>
-            <form>
+            <form action="sorteo.html" method="get">
                 <input type="email" placeholder="Email" required>
                 <button type="submit">Suscribirse</button>
             </form>
 
         </div>
-    </footer>
+	</footer>
     <footer class="color">
         <div>Desarrollado por Equipo 3 F5</div>
         <div>Copyright 2023 © Todos los derechos reservados.</div>
