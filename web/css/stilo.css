@@ -396,6 +396,36 @@ button {
 .cuadrado h3{
     color: white;
 }
+/* para la version de cartas */
+.cajamenu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 20px;
+	
+}
+.cajamenu div:first-child{
+	width: 60%;
+
+}
+.cajamenu p{	
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.secciones h3 {
+ text-align: center;
+ margin: 20px;
+ font-size: 2em;
+ color: #EFB501;
+}
+.cajamenu button{
+	 width: 100px; 
+	height: 33px;	
+	justify-content: space-around;
+	background: #D9D9D9;
+	border-radius: 100px; 
+}
 /* fin cuerpo de la pagina */
 /* para el pie de página  */
 footer{
