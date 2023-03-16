@@ -170,11 +170,7 @@ main{
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-.descripcion{
-	display: flex;
-	  flex-wrap: wrap;
-	justify-content: space-between;
-}
+
 .descripcion input, .descripcion select{
 	*width: 250px;
 	padding: 20px;
@@ -302,24 +298,14 @@ button {
 }
 /* formulario sorteos */
 .contenido{
-    display: flex;
-    margin: 0 49px;
-    margin: top 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    *display: flex;
+    *margin: 0 49px;
+    *margin: top 20px;
+    *margin-left: 30%;
+    *margin-right: 30%;
 }
 /* espacio donde van a estar las cosas */
-.secciones{
-    display: inline;
-    padding: 30%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.secciones img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 /* cuadrado interior de las cosas */
 .cuadrado{
     background-color: black;
@@ -427,7 +413,7 @@ footer p{
 	padding: 50px;
 }
 footer div{
-	*background-color: rgb(196, 69, 69);
+
 	width: 33%;
 	margin: 30px;
 	padding: 20px;
@@ -459,8 +445,68 @@ footer div button{
 
 .color{
 	color: rgba(108, 100, 100, 1);
-	display: flex;
-  	flex-wrap: wrap;
-	justify-content: space-between;
+	*display: flex;
+  	*flex-wrap: wrap;
+	*justify-content: space-between;
 	border-top: 1px solid #6C6464;
 }
+/*
+@media screen and (max-width:768px){
+	footer{
+		display: block;
+  		padding: 1px;
+		
+	}
+	main, .contenido{
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	footer div{
+		width: auto;
+	}
+	.bar{
+		display: block;
+	}
+	.segundocontenedor{
+		width: auto;
+	}
+
+	.button-container{
+		width: auto;
+	}
+	.secciones h2{
+		font-size: 2.5em;
+	}
+	.secciones{
+		padding: 5px;
+	}
+	.descripcion div:first-child{
+		width: 80%;
+	}
+	.descripcion div:first-child p{
+		text-align: left;
+	}
+	.descripcion input, .descripcion select{
+		font-size: 1.5em;
+	}
+	button{
+		width: auto;
+	}
+	.secciones img {
+		width: 100%;
+	}
+	.segundocontenedor img{
+		width: auto;
+	}
+	.color div{
+		margin: 5px 10px;
+		padding: 5px 10px;
+	}
+	.menu{
+		margin-top: 10px ;
+	}
+	.cabecera{
+		display: block;
+	}
+}
+*/
