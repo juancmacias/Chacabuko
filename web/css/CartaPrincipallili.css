@@ -1,0 +1,183 @@
+/*
+Hacemos que todo vaya hacia dentro y ponemos los margenes y pading a 0
+*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+    display: block;
+    *max-width: 1024px;
+    margin: 0px auto;
+    font-family: sans-serif;
+    background-color: white;
+	/* evitar los desbordamiento lateral entre navegación y página cortas*/
+	overflow-y: scroll;
+}
+main{
+	margin: 0 139px;
+}
+/*
+Aquí empieza las clases generales
+*/
+.cabecera{
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+}
+
+.index{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+.index button{
+	padding: 5px;
+	border-radius: 5px;
+	height: 47px;
+	width: 157px;
+	border: none;
+	background-color: #ffffffa1 ;
+	font-size: 24px;
+}
+
+.logo img{
+	width: 305px;
+	height: 122px;
+	margin-top: 20px;
+	margin-left: 43px;
+	margin-bottom: 20px;
+}
+.menu{
+	margin-top: 60px;
+}
+h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding:20px;
+}
+.cajamenu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 20px;
+	
+}
+.cajamenu div:first-child{
+width: 60%;
+}
+.cajamenu p{	
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.secciones h3 {
+ text-align: center;
+ margin: 20px;
+ font-size: 2em;
+ color: #EFB501;
+}
+.cajamenu button{
+	 width: 100px; 
+	height: 33px;	
+	justify-content: space-around;
+	background: #D9D9D9;
+	border-radius: 100px; 
+}
+
+
+nav ul{
+	*background-color: #757575;
+	width: 100%;
+	list-style-type: none;
+	text-align:center;
+	
+}
+nav li{
+	display:inline-flex;
+}
+nav li:hover{
+	*background-color: black;
+}
+nav a{
+	text-decoration:  none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+/* fin cabecera */
+
+/* para el cuerpo de la página */
+.secciones{
+	*display:flex;
+	*align-items: center;
+	padding:40px;
+}
+.menu-secundario{
+	width:20% ;
+	margin-top: 60px;
+}
+.menu-secundario a{
+	display: block;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* fin cuerpo de la pagina */
+/* para el pie de página  */
+footer{
+	display: inline-flex;
+  	flex-wrap: nowrap;
+	width: 100%;
+	background-color: black;
+	color:white;
+}
+footer h2{
+	font-size: 1em;
+}
+footer p{
+	text-emphasis: center;
+	padding: 50px;
+}
+footer div{
+	*background-color: rgb(196, 69, 69);
+	width: 33%;
+	margin: 30px;
+	padding: 20px;
+}
+footer div ul{
+	list-style-type: none;
+}
+footer div ul li{
+	margin: 10px;
+}
+footer div input{
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+}
+footer div button{
+	background-color:#ffe707;
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+	border: none;
+}
+.last{
+	text-align: center;
+}
+.color{
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid #6C6464;
+}
+/* fin del pie de página*/
+
