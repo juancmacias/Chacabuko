@@ -3,7 +3,7 @@
 # Grupo 3
 # Equipo
 # Scrum Master: juan Carlos
-# Product Owner: Eva
+# Product Owner: Eva Bustamante
 # Desarrolladores: 
 # Liliana
 # Mariama
