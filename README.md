@@ -4,6 +4,7 @@
 # Equipo
 # Scrum Master: juan Carlos
 # Product Owner: Eva
-# Desarrolladores: Liliana
-#                  Mariama
-#                  Santiago
+# Desarrolladores: 
+# Liliana
+# Mariama
+# Santiago
