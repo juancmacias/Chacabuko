@@ -6,5 +6,5 @@
 # Product Owner: Eva Bustamante
 # Desarrolladores: 
 # Liliana
-# Mariama Salhi Seidi .
+# Mariama Salhi Seidi ..
 # Santiago Andrade
