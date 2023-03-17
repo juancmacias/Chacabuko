@@ -63,6 +63,10 @@ Aquí empieza las clases generales
 	margin-top: 20px;
 	margin-left: 43px;
 	margin-bottom: 20px;
+	transition: transform .3s;
+}
+.logo img:hover{
+	transform: scale(1.1);
 }
 .menu{
 	margin-top: 60px;
