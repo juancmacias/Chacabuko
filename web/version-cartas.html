@@ -1,14 +1,33 @@
 <!DOCTYPE html>
+<!--
+FACTORIA F5, tutora: Ana
+Fecha inicio: 10-03-2023 / Fecha fin: 22-03-2023
+Desarrolladoras:
+    Eva
+    Liliana
+    Mariama
+    Santiago
+    JC
+DESCRIPCIÓN:
+    Crear una página web en base a un prototipado  que nos han facilitado a traves de FIGMA, debe ser responsive entre otros
+-->
 <html lang="es">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Página sencialla</title>
-	<link rel="stylesheet" href="css/stilo.css">
+    <title>Restaurante Chacabuko</title>
     <link rel="stylesheet" href="version-cartas.css">
+    <!-- iconos -->
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+
 <body>
+    <!-- 
+        Esta en la parte donde inicia la cabecera
+        La class cabeceraindex >> solo se utiliza para la página principal
+    -->
     <header class="cabecera">
         <div class="logo">
             <a href="index.html" title="Restaurante Chacabuko">
@@ -24,148 +43,97 @@
             </nav>
 
         </div>
-        
+        <!-- 
+            Este 'div index' es solo para la pagina principal
+            Quitar si se va usar para otras páginas secundarias
+        -->
+
     </header>
-    <main> 
-        <style>
-           
-        </style>
-        <div class="contenido"> 
-         <div class="carta"> 
-
-            <img class="" src="img chacabuco/cartaPrincipal.png">
-            <div>
-                <div class="cartasprincipales">
-                <h2>
-                    cartas principales
-                </h2>
+    <!-- Aquí acaba la cabeceras -->
+    <!-- 
+        Aquí comienza el cuerpo de la página, es la que se modifica
+    -->
+    <main>
+        <div class="contenido">
+               <div class="secciones">
+                  <div class="imagen1">
+                        <img src="img/cartaPrincipal.png">
+                    </div>
+                    <div class="boton1">
+                        <h2>carta principal</h2>
+                        <button>ver cartas</button>
+                    </div>
                 </div>
-                <div class="button-container"> 
-                <button>
-                    ver carta
-                </button>
+
+                <div class="secciones">
+                    <img src="img/cartaDePostres.png">
+                        <h2> carta postres</h2>
+                            <div><button>ver cartas</button></div>  
                 </div>
-            </div>
-        </div>
-            <div class="cartas">
-                <img class="" src="img chacabuco/cartaDePostres.png">
-                <div>
-                    <div class="cartaspostre">
-                    <h2>
-                        carta de postres
-                    </h2>
-                    </div>
-                <div class="button-postre">   
-                      <button>
-                          ver carta
-                      </button>
-                </div>      
+                <div class="secciones">
+                    <img src="img/cartaDeVInos.png">
+                        <h2> cartas vinos</h2>
+                            <div><button>ver cartas</button></div>
+                </div>    
+                <div class="secciones">
+                    <img src="img/cartaSinGluten.png">
+                        <h2> cartas sin gluten</h2>
+                            <div><button>ver cartas</button></div>  
                 </div>
-         </div>
-            <div class="cartas"> 
-                <img class="" src="img chacabuco/cartaDeVInos.png">
-                    <div>
-                        <div class="cartasvinos">
-                        <h2>
-                            cartas de vinos
-                        </h2>
-                        </div>
-                        <div class="button-vinos"> 
-                          <button>
-                            ver carta
-                          </button>
-                          </div>
-                    </div>
+                <div class="secciones">
+                    <img src="img/menuDelDia.png">
+                        <h2>carta del dia</h2>
+                            <div><button>ver cartas</button></div> 
+                 </div>
+                <div class="seccion6">
+                    <img src="img/cartaDeDesayunos.png">
+                        <h2>carta de desayuno</h2>
+                            <div><button>ver cartas</button></div>  
+                 </div>
         </div>
-            <div class="carta"> 
-                <img class="" src="img chacabuco/cartaSinGluten.png">
-                     <div>
-                        <div class="cartasingluten">
-                        <h2>
-                             carta sin gluten
-                        </h2>
-                        </div>
-                        <div class="button-singluten"> 
-                            <button>
-                              ver carta
-                            </button>
-                        </div>
-                    </div>
-        </div>
-             <div class="cartas"> 
-
-                <img class="" src="img chacabuco/menuDelDia.png">
-                     <div>
-                        <div class="carta-menu-del-dia">
-                         <h2>
-                             carta menu del dia
-                        </h2>
-                        </div>
-                        <div class="button-menu-del-dia"> 
-                            <button>
-                                ver carta
-                             </button>
-                        </div>
-                    </div>
-        </div>
-              <div class="cartas"> 
-
-                 <img class="" src="img chacabuco/cartaDeDesayunos.png">
-                    <div>
-                        <div class="carta-de-desayunos">
-                     
-                        <h2>
-                         carta de desayunos
-                        </h2>
-                     </div>
-                        
-                        <div class="button-de-desayuno">
-
-                          <button>
-                            ver carta
-                          </button>
-                        </div>
-                     </div>
-        </div>
-        </div>
-
-        
-
-
-        
-
     </main>
-    <div class="final">
-	<footer>
-		<div>
+    <!-- aquí acaba el cuerpo de la pagina-->
+    <!-- Inica el pie de página-->
+    <footer>
+        <div>
             <h2>Sobre Nosotros</h2>
             <ul>
                 <li>Nuestra historio</li>
                 <li>Dónde estramos</li>
+                <li>Protección de datos</li>
+                <li>Uso de Cookies</li>
             </ul>
         </div>
         <div>
-            <h2>Unete al equipo</h2>
+            <h2>Únete al equipo</h2>
             <ul>
                 <li>Trabaja con nosotros</li>
             </ul>
         </div>
         <div>
-            <h2>>¡Siguenos! :)</h2>
-            
+            <h2>!Siguenos! :)</h2>
+            <ul>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+            </ul>
+
+
+
         </div>
-        <div>
-            <h2>>¿Quieres participar en sorteos y promociones? ¡Déjanos tu correo!</h2>
+        <div class="last">
+            <h2>¿Quieres participar en sorteos y promociones?<br> ¡Déjanos tu correo!</h2>
             <form>
-                <input type="email" placeholder="Email">
-                <button>Suscribirse</button>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Suscribirse</button>
             </form>
+
         </div>
-	</footer>
-    <footer>
-        <div>Desarrollado por Awsystems.es</div>
-        <div>Copyright 2021 © Todos los derechos reservados.</div>
     </footer>
-    </div>
+    <footer class="color">
+        <div>Desarrollado por Equipo 3 F5</div>
+        <div>Copyright 2023 © Todos los derechos reservados.</div>
+    </footer>
+    <!-- Finaliza el pie de pagina -->
 </body>
+
 </html>
