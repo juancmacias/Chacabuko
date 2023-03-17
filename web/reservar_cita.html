@@ -16,8 +16,8 @@ DESCRIPCIÓN:
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sorteo Chacabuko</title>
-    <link rel="stylesheet" href="css/stilo.css">
+	<title>Restaurante Chacabuko - Reservar cita</title>
+	<link rel="stylesheet" href="css/stilo.css">
     <!-- iconos -->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 </head>
@@ -39,12 +39,7 @@ DESCRIPCIÓN:
                     <li><a href="Restaurante-Eva.html">Restaurante</a></li>
                 </ul>
             </nav>
-
         </div>
-        <!-- 
-            Este 'div index' es solo para la pagina principal
-            Quitar si se va usar para otras páginas secundarias
-        -->
     </header>
     <!-- Aquí acaba la cabeceras -->
     <!-- 
@@ -53,25 +48,32 @@ DESCRIPCIÓN:
     <main>
         <div class="contenido">
             <div class="articulos">
-                <!-- para los diferentes helados -->
+                <!-- formulario -->
                 <div class="secciones">
-                    <img src="img/oops.png" alt="Lo sentimos">
-                    <div class="cuadrado">
-                        <h3>Vuelve a intentarlo más tarde</h3>
-                        <div class="cajita">
-                            <h3>Gracias por participar en nuestro sorteo</h3>
-                            <br>
-                            <h3>¡La próxima vez serás tú!</h3>
-                        </div>
-                        <div>
-                            <div class="opcion1">
-                            <button><a href="">Avísanos</a></button>
+                    <h2>Reservar tu cita</h2>
+                    <form action="confirmacion.html" method="get">
+                        <div class="descripcion">
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre" required><br>
+                                <input type="text" name="apellido" placeholder="Apellido" required><br>
+                                <input type="email" name="correo" placeholder="Correo electrónico" required><br>
+                                <input type="number" name="telefono" placeholder="Teléfono" required><br>
                             </div>
-                            <div class="opcion2">
-                            <button><a href="index.html">Aceptar</a></button>
+                            <div>
+                                <select name="personas">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select><br>
+                                <input type="time" name="hora" required><br>
+                                <input type="date" name="dia" required><br>
                             </div>
                         </div>
-                    </div>
+                        <div class="button">
+                            <button class="enviar">Reserva ahora</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

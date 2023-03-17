@@ -14,6 +14,15 @@ body{
     background-color: white;
 	/* evitar los desbordamiento lateral entre navegación y página cortas*/
 	overflow-y: scroll;
+	background-color: rgba(198, 194, 194, 1);
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+@font-face {
+	font-family: 'Ephesis';
+	src: url('fonts/Ephesis.ttf') format('truetype');
 }
 /*
 Aquí empieza las clases generales
@@ -22,7 +31,7 @@ Aquí empieza las clases generales
 	display: flex;
   	flex-wrap: wrap;
 	justify-content: space-between;
-	background-color: black;
+	background-color: rgba(15, 14, 14, 1);
 }
 .cabeceraindex{
 	height: 633px;
@@ -87,8 +96,13 @@ nav a{
 /* fin cabecera */
 
 /* para el cuerpo de la página */
+main{
+	margin: 0 139px;
+
+	*background-color: aqua;
+}
 .secciones{
-	display:flex;
+	*display:flex;
 	align-items: center;
 	padding:40px;
 }
@@ -102,13 +116,328 @@ nav a{
 	text-align: center;
 	margin-bottom: 20px;
 }
+
+.contenido{
+    margin: 0 49px;
+    margin: top 20px;
+}
+
+
+
+.secciones h2{
+    color: #ffe707;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.descripcion p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 0.8em;
+}
+.descripcion_uno{
+	font-weight: bold;
+	font-size: 1em;
+	padding: 20px;
+}
+
+/* Creación de botones*/
+.botones {
+    display: flex;
+	justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.botones button{
+    border-radius: 100px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 150px;
+    height: 33px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+}
+/* para reservar cita */
+.secciones h2{
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.descripcion input, .descripcion select{
+	*width: 250px;
+	padding: 20px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgba(50, 55, 56, 0.7);
+	color: white;
+	font-size: 2em;
+}
+.secciones .button{
+	margin-top: 40px;
+	text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1; /* Firefox */
+	font-size: 1em;
+}
+.enviar{
+	font-size: 1.2em;
+	padding: 10px;
+	color:black;
+	font-weight: bolder;
+	background-color: rgba(239, 181, 1, 0.58);
+	border-radius: 15px;
+}
+.enviar:hover{
+	background-color: rgba(239, 181, 1, 1);
+	cursor: pointer;
+}
+/* restaurantes */
+.bar {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+
+
+.button-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+	width: 300px;
+	*vertical-align: middle; 
+}
+.button-container button a{
+	color: #000000;
+}
+button {
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+    background: rgba(228, 219, 219, 0.11);
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+.segundocontenedor {
+	width: 60%;
+	margin-top: 20px;
+}
+.segundocontenedor img, .segundocontenedor h2 {
+	display: inline;
+	vertical-align: middle; 
+}
+.segundocontenedor h2 a{
+	color: #000000;
+	font-size: 0.4em;
+}
+/* confirmacion */
+.contenido{
+    margin: 0 49px;
+    margin:  20px;
+}
+
+/* espacio de la imagen */
+.secciones{
+    padding: 5%;
+    padding-bottom: 0%;
+    padding-top: 3%;
+}
+.secciones img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secciones p{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* como actuan los botnes */
+.boton{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.boton button{
+    border-radius: 100px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 150px;
+    height: 33px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+}
+/* cambios de color a la hora de poner encima el ratón y a hacer click*/
+.boton button a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+.boton button a:hover {
+    color: rgb(73, 117, 77);
+    background-color: transparent;
+    text-decoration: none;
+}
+.boton button a:active {
+    color: rgb(26, 187, 12);
+    background-color: transparent;
+    text-decoration: none;
+}
+/* formulario sorteos */
+.contenido{
+    *display: flex;
+    *margin: 0 49px;
+    *margin: top 20px;
+    *margin-left: 30%;
+    *margin-right: 30%;
+}
+/* espacio donde van a estar las cosas */
+
+/* cuadrado interior de las cosas */
+.cuadrado{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 10%;
+    padding-bottom: 2%;
+}
+.cuadrado h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.cajita{
+    background-color: #2c2b2b;
+}
+
+/* opción 1 de los botones */
+.opcion1{
+    justify-content: center;
+    display: flex;
+    padding: 3%;
+    border-top: 1px solid #6C6464;
+}
+.opcion1 button{
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 150px;
+    height: 33px;
+    border: none;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+
+}
+.opcion1 button a:visited {
+    color: rgb(0, 17, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+.opcion1 button a:hover {
+    color: rgb(77, 73, 117);
+    background-color: transparent;
+    text-decoration: none;
+}
+.opcion1 button a:active {
+    color: rgb(15, 12, 187);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* opción 2 del los botones */
+.opcion2{
+    justify-content: center;
+    display: flex;
+    padding: 3%;
+    border-top: 1px solid #6C6464;
+}.opcion2 button{
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 150px;
+    height: 33px;
+    border: none;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+
+}
+.opcion2 button a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+.opcion2 button a:hover {
+    color: rgb(73, 117, 77);
+    background-color: transparent;
+    text-decoration: none;
+}
+.opcion2 button a:active {
+    color: rgb(26, 187, 12);
+    background-color: transparent;
+    text-decoration: none;
+}
+.cuadrado h3{
+    color: white;
+}
+/* para la version de cartas */
+.cajamenu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 20px;
+	
+}
+.cajamenu div:first-child{
+	width: 60%;
+
+}
+.cajamenu p{	
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.secciones h3 {
+ text-align: center;
+ margin: 20px;
+ font-size: 2em;
+ color: #EFB501;
+}
+.cajamenu button{
+	 width: 100px; 
+	height: 33px;	
+	justify-content: space-around;
+	background: #D9D9D9;
+	border-radius: 100px; 
+}
+
 /* fin cuerpo de la pagina */
 /* para el pie de página  */
 footer{
 	display: inline-flex;
   	flex-wrap: nowrap;
 	width: 100%;
-	background-color: black;
+	background-color: rgba(15, 14, 14, 1);
 	color:white;
 }
 footer h2{
@@ -119,7 +448,7 @@ footer p{
 	padding: 50px;
 }
 footer div{
-	*background-color: rgb(196, 69, 69);
+
 	width: 33%;
 	margin: 30px;
 	padding: 20px;
@@ -150,10 +479,68 @@ footer div button{
 }
 
 .color{
-	display: flex;
-  	flex-wrap: wrap;
-	justify-content: space-between;
+	color: rgba(108, 100, 100, 1);
+	*display: flex;
+  	*flex-wrap: wrap;
+	*justify-content: space-between;
 	border-top: 1px solid #6C6464;
 }
-/* fin del pie de página*/
 
+@media screen and (max-width:768px){
+	footer{
+		display: block;
+  		padding: 1px;
+		
+	}
+	main, .contenido{
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	footer div{
+		width: auto;
+	}
+	.bar{
+		display: block;
+	}
+	.segundocontenedor{
+		width: auto;
+	}
+
+	.button-container{
+		width: auto;
+	}
+	.secciones h2{
+		font-size: 2.5em;
+	}
+	.secciones{
+		padding: 5px;
+	}
+	.descripcion div:first-child{
+		width: 80%;
+	}
+	.descripcion div:first-child p{
+		text-align: left;
+	}
+	.descripcion input, .descripcion select{
+		font-size: 1.5em;
+	}
+	button{
+		width: auto;
+	}
+	.secciones img {
+		width: 100%;
+	}
+	.segundocontenedor img{
+		width: auto;
+	}
+	.color div{
+		margin: 5px 10px;
+		padding: 5px 10px;
+	}
+	.menu{
+		margin-top: 10px ;
+	}
+	.cabecera{
+		display: block;
+	}
+}
