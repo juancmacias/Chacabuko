@@ -5,6 +5,6 @@
 # Scrum Master: Juan Carlos
 # Product Owner: Eva
 # Desarrolladores: 
-# Liliana
+# Liliana garcia
 # Mariama
 # Santiago
