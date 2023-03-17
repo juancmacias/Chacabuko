@@ -12,21 +12,24 @@ DESCRIPCIÓN:
     Crear una página web en base a un prototipado  que nos han facilitado a traves de FIGMA, debe ser responsive entre otros
 -->
 <html lang="es">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Restaurante Chacabuko - Reservar cita</title>
-	<link rel="stylesheet" href="css/stilo.css">
+    <title>Restaurante Chacabuko</title>
+    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- iconos -->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+
 <body>
     <!-- 
         Esta en la parte donde inicia la cabecera
         La class cabeceraindex >> solo se utiliza para la página principal
     -->
-    <header class="cabecera">
+    <header class="cabecera cabeceraindex">
         <div class="logo">
             <a href="index.html" title="Restaurante Chacabuko">
                 <img src="img/logtipo.png">
@@ -39,6 +42,15 @@ DESCRIPCIÓN:
                     <li><a href="Restaurante-Eva.html">Restaurante</a></li>
                 </ul>
             </nav>
+
+        </div>
+        <!-- 
+            Este 'div index' es solo para la pagina principal
+            Quitar si se va usar para otras páginas secundarias
+        -->
+        <div class="index">
+            <p>¡Prueba nuestra deliciosa masa!</p>
+            <button><a href="version-cartas.html">Cartas</a></button>
         </div>
     </header>
     <!-- Aquí acaba la cabeceras -->
@@ -46,34 +58,31 @@ DESCRIPCIÓN:
         Aquí comienza el cuerpo de la página, es la que se modifica
     -->
     <main>
+
         <div class="contenido">
-            <div class="articulos">
-                <!-- formulario -->
-                <div class="secciones">
-                    <h2>Reservar tu cita</h2>
-                    <form action="confirmacion.html" method="get">
-                        <div class="descripcion">
-                            <div>
-                                <input type="text" name="nombre" placeholder="Nombre" required><br>
-                                <input type="text" name="apellido" placeholder="Apellido" required><br>
-                                <input type="email" name="correo" placeholder="Correo electrónico" required><br>
-                                <input type="number" name="telefono" placeholder="Teléfono" required><br>
-                            </div>
-                            <div>
-                                <select name="personas">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                </select><br>
-                                <input type="time" name="hora" required><br>
-                                <input type="date" name="dia" required><br>
-                            </div>
-                        </div>
-                        <div class="button">
-                            <button class="enviar">Reserva ahora</button>
-                        </div>
-                    </form>
+            <div class="secciones">
+                <div class="rectangulo">
+                    <h2>¡No te resistas ven a vernos!</h2>
+                    <button><a href="reservar_cita.html">Reservar</a></button> 
+                </div>
+                <div><img src="img/index1.png"></div>
+                <div>
+                    <h2>¡Prueba nuestra especialidad!</h2>
+                    <p>Una deliciosa masa fina y crujiente rellena de queso y lo que te de la gana. Asi definimos nuestra
+                        arrollada, uno de los best sellers desde hace 33 años.</p>
+                    <button><a href="version-cartas.html">Quiero probarla</a></button>    
+                </div>
+            </div>
+        </div>
+        <div class="contenido2">
+            <div class="secciones2">
+                <div>
+                    <h2>Nuestra sección dulce</h2>
+                    <p>Es la mejor forma de terminar una experiencia en nuestros restaurantes. Aromas y sabores de toda
+                        la vida. Nuestras recetas siguen manteniéndose fieles a como eran hace 3 décadas.</p>
+                </div>
+                <div>
+                    <img src="img/index2.png">
                 </div>
             </div>
         </div>
@@ -121,4 +130,5 @@ DESCRIPCIÓN:
     </footer>
     <!-- Finaliza el pie de pagina -->
 </body>
+
 </html>
