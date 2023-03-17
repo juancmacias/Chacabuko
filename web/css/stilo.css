@@ -58,14 +58,15 @@ Aquí empieza las clases generales
 }
 
 .logo img{
-	width: 305px;
-	height: 122px;
-	margin-top: 20px;
-	margin-left: 43px;
-	margin-bottom: 20px;
+	width: 202px;
+	height: 81px;
+	margin: 10%;
+	margin-left: 10%;
 }
 .menu{
-	margin-top: 60px;
+	margin-top: 40px;
+	margin-left: 0%;
+	margin-right: 30px;
 }
 h1{
 	text-align: center;
@@ -75,11 +76,9 @@ h1{
 }
 
 nav ul{
-	*background-color: #757575;
 	width: 100%;
 	list-style-type: none;
 	text-align:center;
-	
 }
 nav li{
 	display:inline-flex;
@@ -91,7 +90,7 @@ nav a{
 	text-decoration:  none;
 	color: white;
 	padding: 10px;
-	width: 150px;
+	*width: 150px;
 }
 /* fin cabecera */
 
@@ -480,10 +479,19 @@ footer div button{
 
 .color{
 	color: rgba(108, 100, 100, 1);
-	*display: flex;
-  	*flex-wrap: wrap;
-	*justify-content: space-between;
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-between;
 	border-top: 1px solid #6C6464;
+	font-size: small;
+}
+
+/* ajustes de la zona de copyright y grupo de creación por SANTI */
+.color div{
+    color: #6C6464;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 10%;
 }
 
 @media screen and (max-width:768px){
