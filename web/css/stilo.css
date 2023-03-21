@@ -218,6 +218,7 @@ main{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 10px;
   }
 
 
@@ -245,7 +246,7 @@ button {
 	margin-top: 20px;
 }
 .segundocontenedor img, .segundocontenedor h2 {
-	display: inline;
+	display: inline!important;
 	vertical-align: middle; 
 }
 .segundocontenedor h2 a{
@@ -261,7 +262,7 @@ button {
 /* espacio de la imagen */
 .secciones{
     padding: 5%;
-    padding-bottom: 0%;
+    padding-bottom: 3%;
     padding-top: 3%;
 }
 .secciones img{
