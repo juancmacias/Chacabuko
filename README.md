@@ -1,10 +1,9 @@
 # Restaurante Chacabuko
 # Ejercicio para el curso de Boot Camp FullStack de Factoria F5 y Fundación Tomillo
-# Grupo 3
 # Equipo
-# Scrum Master: juan Carlos
-# Product Owner: Eva
+# Scrum Master: Juan Carlos
+# Product Owner: Eva Bustamante
 # Desarrolladores: 
-# Liliana garcia
+# Liliana
 # Mariama
 # Santiago Andrade

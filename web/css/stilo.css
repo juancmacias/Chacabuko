@@ -58,10 +58,21 @@ Aquí empieza las clases generales
 }
 
 .logo img{
+
 	width: 202px;
 	height: 81px;
 	margin: 10%;
 	margin-left: 10%;
+
+	width: 305px;
+	height: 122px;
+	margin-top: 20px;
+	margin-left: 43px;
+	margin-bottom: 20px;
+	transition: transform .3s;
+}
+.logo img:hover{
+	transform: scale(1.1);
 }
 .menu{
 	margin-top: 40px;
@@ -262,7 +273,7 @@ button {
     margin-right: auto;
 }
 .secciones p{
-    text-align: center;
+    *text-align: center;
     font-weight: bold;
 }
 
