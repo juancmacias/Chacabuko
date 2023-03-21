@@ -20,10 +20,7 @@ a{
 	color: white;
 	text-decoration: none;
 }
-@font-face {
-	font-family: 'Ephesis';
-	src: url('fonts/Ephesis.ttf') format('truetype');
-}
+
 /*
 Aquí empieza las clases generales
 */
