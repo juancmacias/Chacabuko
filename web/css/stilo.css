@@ -81,6 +81,22 @@ h1{
 	color: white;
 	padding:20px;
 }
+/* decoración botones superiores*/
+nav ul li a{
+	transition: transform .3s;
+}
+nav ul li a:after {
+	display:block;
+	content: '';
+	border-bottom: solid 3px #ffe707;
+	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out; 
+}
+nav ul li a:hover:after { transform: scaleX(1); }
+nav ul li a:hover{ transform: scale(1.5);}
+nav ul li a.fromRight:after{ transform-origin:100% 50%; }
+nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
+/* fin decoración botones superior*/
 
 nav ul{
 	width: 100%;
@@ -97,7 +113,7 @@ nav a{
 	text-decoration:  none;
 	color: white;
 	padding: 10px;
-	*width: 150px;
+	width: 150px;
 }
 /* fin cabecera */
 
