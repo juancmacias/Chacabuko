@@ -17,7 +17,7 @@ body{
 	background-color: rgba(198, 194, 194, 1);
 }
 a{
-	color: white;
+	color: rgb(100, 100, 100);
 	text-decoration: none;
 }
 
@@ -40,12 +40,14 @@ Aquí empieza las clases generales
 
 .index{
 	color: white;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	width: 100%;
 }
 .index p{
-	border-color: #000000;
+
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
 }
 .index button{
 	padding: 5px;
@@ -58,10 +60,11 @@ Aquí empieza las clases generales
 }
 
 .logo img{
-
-
-	margin: 20px;
-	*margin-left: 43px;
+	width: 202px;
+	height: 81px;
+	margin: 10%;
+	margin-top: 20px;
+	margin-left: 43px;
 	transition: transform .3s;
 }
 .logo img:hover{
@@ -267,7 +270,7 @@ button {
     margin-right: auto;
 }
 .secciones p{
-    *text-align: center;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -470,6 +473,9 @@ footer h2{
 footer p{
 	text-emphasis: center;
 	padding: 50px;
+}
+footer a{
+	color: white;
 }
 footer div{
 
