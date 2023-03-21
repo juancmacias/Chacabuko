@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+FACTORIA F5, tutora: Ana
+Fecha inicio: 10-03-2023 / Fecha fin: 22-03-2023
+Desarrolladoras:
+    Eva
+    Liliana
+    Mariama
+    Santiago
+    JC
+DESCRIPCIÓN:
+    Crear una página web en base a un prototipado  que nos han facilitado a traves de FIGMA, debe ser responsive entre otros
+-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Chacabuko</title>
+    <link rel="stylesheet" href="css/stilo.css">
+    <!-- iconos -->
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- 
+        Esta en la parte donde inicia la cabecera
+        La class cabeceraindex >> solo se utiliza para la página principal
+    -->
+    <header class="cabecera">
+        <div class="logo">
+            <a href="index.html" title="Restaurante Chacabuko">
+                <img src="img/logtipo.png">
+            </a>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="reservar_cita.html">Reserva</a></li>
+                    <li><a href="Restaurante-Eva.html">Restaurante</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!-- Aquí acaba la cabeceras -->
+    <!-- 
+        Aquí comienza el cuerpo de la página, es la que se modifica
+    -->
+    <main>
+    <style>
+        .seccionesw {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .izquierda{
+            width: 33%;
+        }
+        .derecha {
+            width: 66%;
+            text-align: center;
+        
+        }
+        .derecha button {
+            margin-top: 30px;
+        }
+
+
+    </style>
+
+
+        <div class="contenido">
+            <div class="articulos"> 
+
+
+<!--aqui empieza mi contenedor-->
+                <div class="seccionesw">
+                    <div class="izquierda">
+                        <img src="img chacabuco/cartaPrincipal.png">
+                    </div>
+                    <div class="derecha">
+                        <h2>Carta principal</h2>
+                        <button>ver carta</button>
+                    </div>
+                </div>
+<!--FIN CONTENEDOR-->
+<!--aqui empieza mi contenedor-->
+<div class="seccionesw">
+    <div class="izquierda">
+        <img src="img chacabuco/cartaDePostres.png">
+    </div>
+    <div class="derecha">
+        <h2>Carta de postres</h2>
+        <button>ver carta</button>
+    </div>
+</div>
+<!--FIN CONTENEDOR-->
+<!--aqui empieza mi contenedor-->
+<div class="seccionesw">
+    <div class="izquierda">
+        <img src="img chacabuco/cartaDeVInos.png">
+    </div>
+    <div class="derecha">
+        <h2>Carta de vinos</h2>
+        <button>ver carta</button>
+    </div>
+</div>
+<!--FIN CONTENEDOR-->
+<!--aqui empieza mi contenedor-->
+<div class="seccionesw">
+    <div class="izquierda">
+        <img src="img chacabuco/cartaSinGluten.png">
+    </div>
+    <div class="derecha">
+        <h2>Carta sin gluten</h2>
+        <button>ver carta</button>
+    </div>
+</div>
+<!--FIN CONTENEDOR-->
+<!--aqui empieza mi contenedor-->
+<div class="seccionesw">
+    <div class="izquierda">
+        <img src="img chacabuco/cartaDeDesayunos.png">
+    </div>
+    <div class="derecha">
+        <h2>Carta de desayunos</h2>
+        <button>ver carta</button>
+    </div>
+</div>
+<!--FIN CONTENEDOR-->
+<!--aqui empieza mi contenedor-->
+<div class="seccionesw">
+    <div class="izquierda">
+        <img src="img chacabuco/menuDelDia.png">
+    </div>
+    <div class="derecha">
+        <h2>menu del dia </h2>
+        <button>ver carta</button>
+    </div>
+</div>
+<!--FIN CONTENEDOR-->
+            </div>
+
+        </div>
+    </main>
+    <!-- aquí acaba el cuerpo de la página-->
+    <!-- Inica el pie de página-->
+    <footer>
+        <div>
+            <h2>Sobre Nosotros</h2>
+            <ul>
+                <li>Nuestra historia</li>
+                <li><a href="Restaurante-Eva.html">Dónde estramos</a></li>
+                <li><a href="protecciondatos.html">Protección de datos</a></li>
+                <li><a href="usocookies.html">Uso de Cookies</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Únete al equipo</h2>
+            <ul>
+                <li>Trabaja con nosotros</li>
+            </ul>
+        </div>
+        <div>
+            <h2>!Siguenos! :)</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/rtechacabuco/" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/restaurantechacabuco/" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i> Instagram</a></li>
+            </ul>
+
+
+
+        </div>
+        <div class="last">
+            <h2>¿Quieres participar en sorteos y promociones?<br> ¡Déjanos tu correo!</h2>
+            <form action="sorteo.html" method="get">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+
+        </div>
+    </footer>
+    <footer class="color">
+        <div>Desarrollado por Equipo 3 F5</div>
+        <div>Copyright 2023 © Todos los derechos reservados.</div>
+    </footer>
+    <!-- Finaliza el pie de pagina -->
+</body>
+
+</html>
