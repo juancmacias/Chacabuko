@@ -59,11 +59,9 @@ Aquí empieza las clases generales
 
 .logo img{
 
-	width: 202px;
-	height: 81px;
-	margin: 10%;
-	margin-top: 20px;
-	margin-left: 43px;
+
+	margin: 20px;
+	*margin-left: 43px;
 	transition: transform .3s;
 }
 .logo img:hover{
@@ -536,6 +534,9 @@ footer div button{
 	}
 	.bar{
 		display: block;
+	}
+	.logo{
+		text-align: center;
 	}
 	.segundocontenedor{
 		width: auto;
