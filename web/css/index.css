@@ -63,11 +63,40 @@
                 font-style: normal;
                 font-weight: 400;
                 font-size: 15px;
-                line-height: 18px;
+
                 color: #B6B0B0;
             }
             .secciones2 img {
                 *width:500px;
                 *height: 300px;
                 margin: 4px 10px;
+            }
+
+            @media screen and (max-width:768px){
+                .rectangulo{
+                    width: auto;
+                }
+                .cabeceraindex {
+                    height: 100vh;
+                    text-align: center;
+                } .cabeceraindex p{
+                    margin: 20px;
+                }
+                main .secciones1 img{
+                    width: 100%;
+                }
+                .secciones2 p{
+                    font-size: 1.4em;
+                    width: auto;
+                    height: auto;
+                    margin: auto;
+                }
+                .secciones2 img{
+                    width: 100%;
+                    margin: auto;
+                }
+                .secciones2{
+                    flex-wrap: wrap-reverse;
+
+                }
             }
