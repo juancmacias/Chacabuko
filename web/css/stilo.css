@@ -47,6 +47,9 @@ Aquí empieza las clases generales
 	text-align: center;
 	width: 100%;
 }
+.index p{
+	border-color: #000000;
+}
 .index button{
 	padding: 5px;
 	border-radius: 5px;
@@ -62,13 +65,8 @@ Aquí empieza las clases generales
 	width: 202px;
 	height: 81px;
 	margin: 10%;
-	margin-left: 10%;
-
-	width: 305px;
-	height: 122px;
 	margin-top: 20px;
 	margin-left: 43px;
-	margin-bottom: 20px;
 	transition: transform .3s;
 }
 .logo img:hover{
