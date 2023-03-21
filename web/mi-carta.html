@@ -12,24 +12,21 @@ DESCRIPCIÓN:
     Crear una página web en base a un prototipado  que nos han facilitado a traves de FIGMA, debe ser responsive entre otros
 -->
 <html lang="es">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Chacabuko</title>
-    <link rel="stylesheet" href="css/stilo.css">
-    <link rel="stylesheet" href="css/index.css">
+	<title>Restaurante Chacabuko</title>
+	<link rel="stylesheet" href="css/stilo.css">
     <!-- iconos -->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-
 <body>
     <!-- 
         Esta en la parte donde inicia la cabecera
         La class cabeceraindex >> solo se utiliza para la página principal
     -->
-    <header class="cabecera cabeceraindex">
+    <header class="cabecera">
         <div class="logo">
             <a href="index.html" title="Restaurante Chacabuko">
                 <img src="img/logtipo.png">
@@ -44,54 +41,81 @@ DESCRIPCIÓN:
             </nav>
 
         </div>
-        <!-- 
-            Este 'div index' es solo para la pagina principal
-            Quitar si se va usar para otras páginas secundarias
-        -->
-        <div class="index">
-            <p>¡Prueba nuestra deliciosa masa!</p>
-            <button><a href="cartas.html">Cartas</a></button>
-        </div>
+
     </header>
     <!-- Aquí acaba la cabeceras -->
     <!-- 
         Aquí comienza el cuerpo de la página, es la que se modifica
     -->
     <main>
-
+        <style>
+            .seccionesw{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                margin: 20px;
+                border: 1px solid red;
+                border-radius: 4px;
+                padding: 10px;
+            }
+            .seccionesw h2{
+                font-size: 0.8em;
+            }
+        </style>
         <div class="contenido">
-            <div class="secciones1">
-                <div class="rectangulo">
-                    <h2>¡No te resistas ven a vernos!</h2>
-                    <button><a href="reservar_cita.html">Reservar</a></button> 
+            <div class="articulos">
+
+
+
+                <div class="seccionesw">
+                    <div>
+                        <img src="img/foto2.png">
+                    </div>
+                    <div>
+                        <h2>Subtitulo</h2>
+                        <button>Mi boton</button>
+                    </div>
                 </div>
-                <div>
-                    <img src="img/index1.png">
+
+                <div class="seccionesw">
+                    <div>
+                        <img src="img/foto2.png">
+                    </div>
+                    <div>
+                        <h2>ÑAnimales cuadradpos</h2>
+                        <button>Mi boton</button>
+                    </div>
                 </div>
-                <div>
-                    <h2>¡Prueba nuestra especialidad!</h2>
-                    <p>Una deliciosa masa fina y crujiente rellena de queso y lo que te de la gana. Asi definimos nuestra
-                        arrollada, uno de los best sellers desde hace 33 años.</p>
-                    <button><a href="reservar_cita.html">Quiero probarla</a></button>    
+
+                <div class="seccionesw">
+                    <div>
+                        <img src="img/foto2.png">
+                    </div>
+                    <div>
+                        <h2>ÑAnimales cuadradpos</h2>
+                        <button>Mi boton</button>
+                    </div>
                 </div>
+                <div class="seccionesw">
+                    <div>
+                        <img src="img/foto2.png">
+                    </div>
+                    <div>
+                        <h2>ÑAnimales cuadradpos</h2>
+                        <button>Mi boton</button>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
-            <div class="secciones2">
-                <div>
-                    <h2>Nuestra sección dulce</h2>
-                    <p>Es la mejor forma de terminar una experiencia en nuestros restaurantes. Aromas y sabores de toda
-                        la vida. Nuestras recetas siguen manteniéndose fieles a como eran hace 3 décadas.</p>
-                </div>
-                <div>
-                    <img src="img/index2.png">
-                </div>
-            </div>
+
         </div>
-        <!--
-        <div class="contenido2">
-            
-        </div>-->
     </main>
-    <!-- aquí acaba el cuerpo de la pagina-->
+    <!-- aquí acaba el cuerpo de la página-->
     <!-- Inica el pie de página-->
 	<footer>
 		<div>
@@ -134,5 +158,4 @@ DESCRIPCIÓN:
     </footer>
     <!-- Finaliza el pie de pagina -->
 </body>
-
 </html>
