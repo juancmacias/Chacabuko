@@ -247,8 +247,11 @@ main{
 .button-container button a{
 	color: #000000;
 }
-button {
+.button-container button {
 	width: 100px;
+}
+button {
+	*width: 100px;
 	height: 50px;
 	font-weight: bold;
 	font-size: 18px;
@@ -476,6 +479,7 @@ button {
 }
 .derecha button {
 	margin-top: 30px;
+	width: 100px;
 }
 
 /* fin cuerpo de la pagina */
@@ -604,9 +608,7 @@ footer div button{
 		margin-top: 10px ;
 		margin-right: auto;
 	}
-	.cabecera{
-		display: block;
-	}
+
                 /* para la pagina cartas */
                 .seccionesw img {
                     width: 300px;
