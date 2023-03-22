@@ -600,16 +600,15 @@ footer div button{
 	.menu{
 		margin: 0 auto;
 	}
-
-                /* para la pagina cartas */
-                .seccionesw img {
-                    width: 300px;
-                    height: 200px;
-                    margin: 20%;
-                }
-                .seccionesw {   
-                    display: block;
-                    width: 150%;
-                    margin-top: 20px;
-                }
+    /* para la pagina cartas */
+    .seccionesw img {
+        width: 300px;
+        height: 200px;
+        margin: 20%;
+	}
+    .seccionesw {   
+        display: block;
+        width: 150%;
+        margin-top: 20px;
+    }
 }
