@@ -128,8 +128,6 @@ main{
     margin: top 20px;
 }
 
-
-
 .texto h2{
     color: #ffe707;
     font-size: 180%;
@@ -457,6 +455,9 @@ button {
 	margin-top: 30px;
 }
 
+.reglamento{
+	text-align: center;
+}
 /* fin cuerpo de la pagina */
 /* para el pie de página  */
 footer{
