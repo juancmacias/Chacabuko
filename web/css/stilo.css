@@ -29,6 +29,7 @@ Aquí empieza las clases generales
   	flex-wrap: wrap;
 	justify-content: space-between;
 	background-color: rgba(15, 14, 14, 1);
+	box-shadow: 0px 0px 13px 8px #fff9f94d;
 }
 .cabeceraindex{
 	height: 633px;
@@ -71,7 +72,7 @@ Aquí empieza las clases generales
 .menu{
 	margin-top: 40px;
 	margin-left: 0%;
-	margin-right: 30px;
+	margin-right: 50px;
 }
 h1{
 	text-align: center;
@@ -465,12 +466,19 @@ button {
 .izquierda{
 	width: 33%;
 }
-.derecha {
+.derecha{
 	width: 66%;
 	text-align: center;
 
 }
+.derecha button:hover{
+	color: white!important;
+	background: black;
+	box-shadow: 0px 0px 13px 8px #fff9f94d;
+}
 .derecha button {
+
+	transition: transform .3s;
 	margin-top: 30px;
 	width: 100px;
 }
