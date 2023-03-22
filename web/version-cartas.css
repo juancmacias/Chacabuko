@@ -1,3 +1,100 @@
+<<<<<<< HEAD
+/*
+Hacemos que todo vaya hacia dentro y ponemos los margenes y pading a 0
+*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.imagen {
+    position: absolute;
+    width: 301px;
+    height: 219px;
+    left: 343px;
+    top: 273px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* para el pie de página  */
+footer{
+	display: inline-flex;
+  	flex-wrap: nowrap;
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+footer h2{
+	font-size: 1em;
+}
+footer p{
+	text-emphasis: center;
+	padding: 50px;
+}
+footer div{
+	*background-color: rgb(196, 69, 69);
+	width: 33%;
+	margin: 30px;
+	padding: 20px;
+}
+footer div ul{
+	list-style-type: none;
+}
+footer div ul li{
+	margin: 10px;
+}
+footer div input{
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+}
+footer div button{
+	background-color:#ffe707;
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+	border: none;
+}
+.last{
+	text-align: center;
+}
+.color{
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid #6C6464;
+}
+/* fin del pie de página*/
+=======
 .contenido {
 position: absolute;
 width: 301px;
@@ -110,4 +207,5 @@ top: 350px;
 
     
     
+>>>>>>> origin
 
