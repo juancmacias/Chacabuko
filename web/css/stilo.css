@@ -152,7 +152,11 @@ main{
     font-size: 180%;
     font-weight: bold;
     text-align: center;
+<<<<<<< HEAD
+	margin-top: 20px;
+=======
 	padding: 15px;
+>>>>>>> 447736c79737efb8ee2e5c70ef396d802038efc7
 }
 
 .descripcion{
