@@ -71,10 +71,12 @@ h1{
 width: 60%;
 }
 .cajamenu p{	
-	color: #000000;
+	color: grey;
 	margin-bottom: 5px;
 }
-
+.cajamenu h4 {
+	color: black;
+}
 .secciones h3 {
  text-align: center;
  margin: 20px;
