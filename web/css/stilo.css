@@ -8,7 +8,7 @@ Hacemos que todo vaya hacia dentro y ponemos los margenes y pading a 0
 }
 body{
     display: block;
-    *max-width: 1024px;
+
     margin: 0px auto;
     font-family: sans-serif;
     background-color: white;
@@ -60,11 +60,9 @@ Aquí empieza las clases generales
 }
 
 .logo img{
-	*width: 202px;
-	*height: 81px;
+
 	margin: 10%;
-	*margin-top: 20px;
-	*margin-left: 43px;
+
 	transition: transform .3s;
 }
 .logo img:hover{
@@ -145,12 +143,15 @@ main{
 }
 
 
-
+.texto{
+	margin-top: 40px;
+}
 .texto h2{
-    color: #ffe707;
+    color: #EFB501;
     font-size: 180%;
     font-weight: bold;
     text-align: center;
+	padding: 15px;
 }
 
 .descripcion{
@@ -163,7 +164,6 @@ main{
 .descripcion p{
     margin-top: 10px;
     text-align: left;
-    font-size: 0.8em;
 }
 .descripcion_uno{
 	font-weight: bold;
@@ -198,7 +198,7 @@ main{
 }
 
 .descripcion input, .descripcion select{
-	*width: 250px;
+
 	padding: 20px;
 	margin-bottom: 25px;
 	border-radius: 10px;
@@ -242,7 +242,7 @@ main{
 	justify-content: space-around;
 	margin: 30px;
 	width: 300px;
-	*vertical-align: middle; 
+
 }
 .button-container button a{
 	color: #000000;
@@ -251,7 +251,7 @@ main{
 	width: 100px;
 }
 button {
-	*width: 100px;
+
 	height: 50px;
 	font-weight: bold;
 	font-size: 18px;
@@ -288,8 +288,8 @@ button {
     margin-right: auto;
 }
 .secciones p{
-    text-align: center;
-    font-weight: bold;
+
+    *font-weight: bold;
 }
 
 /* como actuan los botnes */
@@ -326,13 +326,7 @@ button {
     text-decoration: none;
 }
 /* formulario sorteos */
-.contenido{
-    *display: flex;
-    *margin: 0 49px;
-    *margin: top 20px;
-    *margin-left: 30%;
-    *margin-right: 30%;
-}
+
 /* espacio donde van a estar las cosas */
 
 /* cuadrado interior de las cosas */
@@ -438,7 +432,7 @@ button {
 
 }
 .cajamenu p{	
-	color: grey;
+
 	margin-bottom: 5px;
 	line-height: 1.7;
 }
