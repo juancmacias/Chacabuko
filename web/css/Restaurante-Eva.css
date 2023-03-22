@@ -120,6 +120,7 @@ main {
 	justify-content: space-between;
   }
 h2 {
+	width: 550px;
 	*margin-top: 8%;
 	*margin-bottom: 8%;
 }
@@ -145,9 +146,11 @@ button {
 	margin-top: 20px;
 }
 .segundocontenedor img, .segundocontenedor h2 {
-	display: inline;
+	display: inline; 
 	vertical-align: middle; 
+	
 }
+
 
 
 /* para el pie de página  */

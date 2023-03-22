@@ -17,7 +17,7 @@ body{
 	background-color: rgba(198, 194, 194, 1);
 }
 a{
-	color: white;
+	color: rgb(100, 100, 100);
 	text-decoration: none;
 }
 
@@ -40,9 +40,14 @@ Aquí empieza las clases generales
 
 .index{
 	color: white;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	width: 100%;
+}
+.index p{
+
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
 }
 .index button{
 	padding: 5px;
@@ -55,17 +60,11 @@ Aquí empieza las clases generales
 }
 
 .logo img{
-
-	width: 202px;
-	height: 81px;
+	*width: 202px;
+	*height: 81px;
 	margin: 10%;
-	margin-left: 10%;
-
-	width: 305px;
-	height: 122px;
-	margin-top: 20px;
-	margin-left: 43px;
-	margin-bottom: 20px;
+	*margin-top: 20px;
+	*margin-left: 43px;
 	transition: transform .3s;
 }
 .logo img:hover{
@@ -82,6 +81,22 @@ h1{
 	color: white;
 	padding:20px;
 }
+/* decoración botones superiores*/
+nav ul li a{
+	transition: transform .3s;
+}
+nav ul li a:after {
+	display:block;
+	content: '';
+	border-bottom: solid 3px #ffe707;
+	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out; 
+}
+nav ul li a:hover:after { transform: scaleX(1); }
+nav ul li a:hover{ transform: scale(1.5);}
+nav ul li a.fromRight:after{ transform-origin:100% 50%; }
+nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
+/* fin decoración botones superior*/
 
 nav ul{
 	width: 100%;
@@ -98,7 +113,7 @@ nav a{
 	text-decoration:  none;
 	color: white;
 	padding: 10px;
-	*width: 150px;
+	width: 150px;
 }
 /* fin cabecera */
 
@@ -131,7 +146,7 @@ main{
 
 
 
-.secciones h2{
+.texto h2{
     color: #ffe707;
     font-size: 180%;
     font-weight: bold;
@@ -218,6 +233,7 @@ main{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 10px;
   }
 
 
@@ -245,7 +261,7 @@ button {
 	margin-top: 20px;
 }
 .segundocontenedor img, .segundocontenedor h2 {
-	display: inline;
+	display: inline!important;
 	vertical-align: middle; 
 }
 .segundocontenedor h2 a{
@@ -261,7 +277,7 @@ button {
 /* espacio de la imagen */
 .secciones{
     padding: 5%;
-    padding-bottom: 0%;
+    padding-bottom: 3%;
     padding-top: 3%;
 }
 .secciones img{
@@ -270,7 +286,7 @@ button {
     margin-right: auto;
 }
 .secciones p{
-    *text-align: center;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -474,6 +490,9 @@ footer p{
 	text-emphasis: center;
 	padding: 50px;
 }
+footer a{
+	color: white;
+}
 footer div{
 
 	width: 33%;
@@ -538,6 +557,9 @@ footer div button{
 	.bar{
 		display: block;
 	}
+	.logo{
+		text-align: center;
+	}
 	.segundocontenedor{
 		width: auto;
 	}
@@ -575,8 +597,20 @@ footer div button{
 	}
 	.menu{
 		margin-top: 10px ;
+		margin-right: auto;
 	}
 	.cabecera{
 		display: block;
 	}
+                /* para la pagina cartas */
+                .seccionesw img {
+                    width: 300px;
+                    height: 200px;
+                    margin: 20%;
+                }
+                .seccionesw {   
+                    display: block;
+                    width: 150%;
+                    margin-top: 20px;
+                }
 }
