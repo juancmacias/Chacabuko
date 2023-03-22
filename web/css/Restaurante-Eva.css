@@ -105,7 +105,7 @@ main {
 }
 .secciones {
 	align-items: center;
-   *background-color: #ffe707;
+   *background-color:black;
    *display: flex;
    *flex-direction: column;
    *float: right;

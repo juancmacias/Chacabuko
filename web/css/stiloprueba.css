@@ -1,0 +1,21 @@
+<style>
+@media screen and (max-width:768px) 
+.secciones {
+    
+   
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.izquierda{
+    width: 33%;
+}
+.derecha {
+    width: 66%;
+    text-align: center;
+
+}
+.derecha button {
+    margin-top: 30px;
+}
+</style>
