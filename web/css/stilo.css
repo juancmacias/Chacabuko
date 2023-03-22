@@ -436,8 +436,13 @@ button {
 
 }
 .cajamenu p{	
-	color: #000000;
+	color: grey;
 	margin-bottom: 5px;
+	line-height: 1.7;
+}
+.cajamenu h4 {
+	color: black;
+	line-height: 1.7;
 }
 
 .secciones h3 {
