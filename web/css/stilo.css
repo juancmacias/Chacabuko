@@ -60,11 +60,11 @@ Aquí empieza las clases generales
 }
 
 .logo img{
-	width: 202px;
-	height: 81px;
+	*width: 202px;
+	*height: 81px;
 	margin: 10%;
-	margin-top: 20px;
-	margin-left: 43px;
+	*margin-top: 20px;
+	*margin-left: 43px;
 	transition: transform .3s;
 }
 .logo img:hover{
@@ -602,4 +602,15 @@ footer div button{
 	.cabecera{
 		display: block;
 	}
+                /* para la pagina cartas */
+                .seccionesw img {
+                    width: 300px;
+                    height: 200px;
+                    margin: 20%;
+                }
+                .seccionesw {   
+                    display: block;
+                    width: 150%;
+                    margin-top: 20px;
+                }
 }
